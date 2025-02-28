@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Instant Quiz",
+    "imageSrc": "projects/project.png",
+    "description": "An app the streamlines the flashcard creation and studying process to improve studying.",
+    "skills": ["EJS", "Express", "Node", "MongoDB"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Justin1812Z/Instant_Quiz"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/project.png",
+    "description": "This website I made to add to my job applications",
+    "skills": ["React" ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "IDK Some Fun Game",
+    "imageSrc": "projects/project.png",
+    "description": "Come up with some game that's easy to code and fun to play to add to the projects list.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

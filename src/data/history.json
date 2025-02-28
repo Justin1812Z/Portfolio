@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Software Engineer Intern",
+    "organisation": "Abacus LLC",
+    "startDate": "February, 2023",
+    "endDate": "August, 2023",
+    "experiences": ["Experience using C#, React, and SQL", "Created RESTful APIs"],
+    "imageSrc": "history/aba.png"
+  },
+  {
+    "role": "Software Engineer Intern",
+    "organisation": "Abacus LLC",
+    "startDate": "May, 2022",
+    "endDate": "Aug, 2022",
+    "experiences": ["Updated legacy systems ", "Worked on agile development teams"],
+    "imageSrc": "history/aba.png"
+  }
+]
