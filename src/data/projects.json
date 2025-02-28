@@ -4,7 +4,6 @@
     "imageSrc": "projects/project.png",
     "description": "An app the streamlines the flashcard creation and studying process to improve studying.",
     "skills": ["EJS", "Express", "Node", "MongoDB"],
-    "demo": "https://www.example.com",
     "source": "https://github.com/Justin1812Z/Instant_Quiz"
   },
   {
@@ -12,7 +11,7 @@
     "imageSrc": "projects/project.png",
     "description": "This website I made to add to my job applications",
     "skills": ["React" ],
-    "demo": "https://www.example.com",
+    "demo": "https://jzitel-portfolio.netlify.app/",
     "source": "https://www.github.com"
   },
   {
