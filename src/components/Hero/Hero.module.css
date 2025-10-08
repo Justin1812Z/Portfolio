@@ -35,7 +35,7 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 25px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -45,7 +45,7 @@
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -76,18 +76,18 @@
   }
 }
 
-.topBlur {
+/* .topBlur {
   position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
+  /* width: 50vw;
+  height: 50vw; */
+  /* min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
+  filter: blur(100px); */
+  /* z-index: 0;
 }
 
 .bottomBlur {
@@ -102,7 +102,7 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
-}
+} */
 
 @media screen and (max-width: 830px) {
   .container {

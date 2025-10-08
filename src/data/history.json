@@ -4,7 +4,7 @@
     "organisation": "Abacus LLC",
     "startDate": "February, 2023",
     "endDate": "August, 2023",
-    "experiences": ["Experience using C#, React, and SQL", "Created RESTful APIs"],
+    "experiences": ["Reduced downtime of business-critical processes by developing an alert system that would trigger when there was an issue.", "Designed and built an API and set up calls to the API inside background processes to track their statuses.", "Created a dashboard to quickly view the status of all background processes, allowing support teams to quickly diagnose issues."],
     "imageSrc": "history/aba.png"
   },
   {
@@ -12,7 +12,7 @@
     "organisation": "Abacus LLC",
     "startDate": "May, 2022",
     "endDate": "Aug, 2022",
-    "experiences": ["Updated legacy systems ", "Worked on agile development teams"],
+    "experiences": ["Transformed a legacy Python billing script into a C# program, aligning it with company standards, making it easier to maintain.", "Replaced manual CSV uploads with automated API integrations, reducing the time billing team spent generating client invoices.", "Participated in the full software development lifecycle in an Agile environment."],
     "imageSrc": "history/aba.png"
   }
 ]

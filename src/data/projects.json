@@ -1,25 +1,18 @@
 [
   {
     "title": "Instant Quiz",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/IQlogo.png",
     "description": "An app the streamlines the flashcard creation and studying process to improve studying.",
     "skills": ["EJS", "Express", "Node", "MongoDB"],
+    "demo": "https://www.youtube.com/watch?v=45cEVvK5wOU&feature=youtu.be",
     "source": "https://github.com/Justin1812Z/Instant_Quiz"
   },
   {
     "title": "Portfolio Website",
     "imageSrc": "projects/project.png",
-    "description": "This website I made to add to my job applications",
+    "description": "This website I made to show case some of my experience and projects.",
     "skills": ["React" ],
     "demo": "https://jzitel-portfolio.netlify.app/",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "IDK Some Fun Game",
-    "imageSrc": "projects/project.png",
-    "description": "Come up with some game that's easy to code and fun to play to add to the projects list.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }
 ]
