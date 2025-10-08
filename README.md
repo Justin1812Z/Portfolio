@@ -1,3 +1,3 @@
 # Justin Zitel Portfolio Website
 
-A simple website built using react
+A simple website built using React
