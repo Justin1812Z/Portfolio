@@ -23,14 +23,16 @@ export const Experience = () => {
           })}
         </div> */}
         <p className={styles.brief}>I have had two internships at Abacus Group where I gained experience working on an Agile software development team using C#, React, and SQL.  
-          I also have a letter of recommendation from this internship that you can read <a
+          I also have a letter of recommendation from this internship available upon request. 
+          {/* <a
           href={("src/data/Letter of Recommendation.pdf")}
           target="_blank"
           rel="noopener noreferrer"
           className={styles.recommendationBtn}
         >
           here
-        </a></p>
+        </a> */}
+        </p>
       
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
