@@ -9,7 +9,7 @@ export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
-      <div className={styles.content}>
+  <div className={styles.content}>
         {/* <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
@@ -22,16 +22,19 @@ export const Experience = () => {
             );
           })}
         </div> */}
-        <p className={styles.brief}>I have had two internships at Abacus Group where I gained experience working on an Agile software development team using C#, React, and SQL.  
-          I also have a letter of recommendation from this internship available upon request. 
-          {/* <a
-          href={("src/data/Letter of Recommendation.pdf")}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.recommendationBtn}
-        >
-          here
-        </a> */}
+        <p className={styles.brief}>
+          I have had two internships at Abacus Group where I gained experience
+          working on an Agile software development team using C#, React, and
+          SQL. I also have a letter of recommendation from this internship
+          available for download:
+          <a
+            href="/Letter of Recommendation.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.recommendationBtn}
+          >
+            Download recommendation
+          </a>
         </p>
       
         <ul className={styles.history}>
