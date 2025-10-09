@@ -36,6 +36,7 @@
 .RecommendationBtn {
   text-decoration: none;
   color:rgb(149, 120, 244);
+  margin-left: 5px;
 }
 
 .skills {

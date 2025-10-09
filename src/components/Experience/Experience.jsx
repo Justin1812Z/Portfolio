@@ -26,14 +26,14 @@ export const Experience = () => {
           I have had two internships at Abacus Group where I gained experience
           working on an Agile software development team using C#, React, and
           SQL. I also have a letter of recommendation from this internship
-          available for download:
+          available 
           <a
             href="/Letter of Recommendation.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.recommendationBtn}
           >
-            Download recommendation
+             here
           </a>
         </p>
       
