@@ -7,22 +7,22 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Justin</h1>
+        <h1 className={styles.title}>Hi, I&apos;m Justin</h1>
         <p className={styles.description}>
-          I'm a recent Computer Science graduate from UNC Charlotte with a 
-          concentration in software engineering!  
+          I&apos;m a Junior Developer at OneCloud, where I build and test
+          features for products approaching launch. I use Claude Code to
+          accelerate development of Python backend and React frontend
+          projects, and I&apos;m focused on growing as a backend engineer.
         </p>
-        <a href="mailto:Justin.L.Zitel@email.com" className={styles.contactBtn}>
+        <a href="mailto:jlzitel@gmail.com" className={styles.contactBtn}>
           Contact Me
         </a>
       </div>
       <img
         src={getImageUrl("hero/ProfilePic.jpg")}
-        alt="Image of me"
+        alt="Justin Zitel"
         className={styles.heroImg}
       />
-      <div className={styles.topBlur} />
-      <div className={styles.bottomBlur} />
     </section>
   );
 };

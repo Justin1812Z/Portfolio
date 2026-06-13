@@ -1,18 +1,52 @@
 [
   {
-    "role": "Software Engineer Intern",
-    "organisation": "Abacus LLC",
-    "startDate": "February, 2023",
-    "endDate": "August, 2023",
-    "experiences": ["Experience using C#, React, and SQL", "Created RESTful APIs"],
-    "imageSrc": "history/aba.png"
+    "role": "Junior Developer",
+    "organisation": "OneCloud",
+    "startDate": "Feb 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Build and QA-test features across products approaching launch",
+      "Find, document, and fix issues on tight deadlines",
+      "Use Claude Code to speed delivery and uphold code quality"
+    ],
+    "imageSrc": "history/onecloud.svg"
+  },
+  {
+    "role": "Tier 1 Support Technician",
+    "organisation": "OneCloud",
+    "startDate": "Nov 2024",
+    "endDate": "Feb 2025",
+    "experiences": [
+      "Resolved customer issues by phone and ticket with fast turnaround",
+      "Diagnosed VoIP problems by analyzing SIP signaling and call flows",
+      "Fixed audio quality, dropped calls, and call routing failures"
+    ],
+    "imageSrc": "history/onecloud.svg"
   },
   {
     "role": "Software Engineer Intern",
-    "organisation": "Abacus LLC",
-    "startDate": "May, 2022",
-    "endDate": "Aug, 2022",
-    "experiences": ["Updated legacy systems ", "Worked on agile development teams"],
-    "imageSrc": "history/aba.png"
+    "organisation": "Abacus Group",
+    "startDate": "Feb 2023",
+    "endDate": "Aug 2023",
+    "experiences": [
+      "Cut downtime of business-critical processes with an alerting system",
+      "Designed and built an API to track background process status",
+      "Created a dashboard so support teams could diagnose issues fast"
+    ],
+    "imageSrc": "history/aba.png",
+    "recLetter": true
+  },
+  {
+    "role": "Software Engineer Intern",
+    "organisation": "Abacus Group",
+    "startDate": "May 2022",
+    "endDate": "Aug 2022",
+    "experiences": [
+      "Rebuilt a legacy Python billing script as a maintainable C# program",
+      "Replaced manual CSV uploads with automated API integrations",
+      "Worked the full SDLC on an Agile team"
+    ],
+    "imageSrc": "history/aba.png",
+    "recLetter": true
   }
 ]

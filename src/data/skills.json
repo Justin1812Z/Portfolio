@@ -1,43 +1,7 @@
 [
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Express",
-    "imageSrc": "skills/express.png"
-  },
-  {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "C#",
-    "imageSrc": "skills/cSharpIcon.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "skills/sql.png"
-  },
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  }
-  
+  { "title": "C#", "imageSrc": "skills/cSharpIcon.png" },
+  { "title": "Python", "imageSrc": "skills/python.png" },
+  { "title": "TypeScript", "imageSrc": "skills/typescript.svg" },
+  { "title": "React", "imageSrc": "skills/react.png" },
+  { "title": "Claude", "imageSrc": "skills/claude.svg" }
 ]

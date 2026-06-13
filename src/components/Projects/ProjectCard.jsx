@@ -8,29 +8,48 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      <img
-        src={getImageUrl(imageSrc)}
-        alt={`Image of ${title}`}
-        className={styles.image}
-      />
-      <h3 className={styles.title}>{title}</h3>
-      <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
-            </li>
-          );
-        })}
-      </ul>
-      <div className={styles.links}>
-        <a target="_blank" rel="noopener noreferrer" href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a target="_blank" rel="noopener noreferrer" href={source} className={styles.link}>
-          Source
-        </a>
+      <div className={styles.content}>
+        <img
+          src={getImageUrl(imageSrc)}
+          alt={`Screenshot of the ${title} project`}
+          className={styles.image}
+        />
+        <h3 className={styles.title}>{title}</h3>
+        <p className={styles.description}>{description}</p>
+      </div>
+
+      <div className={styles.footer}>
+        <ul className={styles.skills}>
+          {skills.map((skill, id) => {
+            return (
+              <li key={id} className={styles.skill}>
+                {skill}
+              </li>
+            );
+          })}
+        </ul>
+        <div className={styles.links}>
+          {demo && (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={demo}
+              className={styles.link}
+            >
+              Demo
+            </a>
+          )}
+          {source && (
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={source}
+              className={styles.link}
+            >
+              Source
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

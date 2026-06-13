@@ -10,35 +10,34 @@ export const About = () => {
       <div className={styles.content}>
         <img
           src={getImageUrl("about/programmer.png")}
-          alt="Me sitting with a laptop"
+          alt="Illustration of a developer at a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/searchIcon.png")} alt="Search icon" />
+            <img src={getImageUrl("about/searchIcon.png")} alt="Current role icon" />
             <div className={styles.aboutItemText}>
-              <h3>Looking for Work</h3>
+              <h3>Junior Developer at OneCloud</h3>
               <p>
-                I'm currently looking for work as an entry level software engineer, web development, or related field
+                I work as a Junior Developer at OneCloud, a telecommunication company that specializes in VoIP and UCaaS solutions, and offers products like AI voice receptionists, E-Fax, and mass messaging systems.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/serverIcon.png")} alt="Backend development icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Development</h3>
               <p>
-                I have experience developing fast and optimized back-end systems
-                and RESTful APIs
+                I design and create MCP integrations to enable our AI voice agent to interact with our customers data, allowing the agent to perform actions like scheduling appointments, automatically create meaningful leads in the customers CRM software, and handle in depth customer inquiries.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend development icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Design</h3>
+              <h3>Frontend Development</h3>
               <p>
-                I have experience creating visually appealing frontend applications that effectively convey important data
+                I perform QA testing on our React frontend to ensure a smooth user experience.
               </p>
             </div>
           </li>

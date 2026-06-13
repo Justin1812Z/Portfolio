@@ -10,18 +10,6 @@ export const Experience = () => {
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
       <div className={styles.content}>
-        <div className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <div key={id} className={styles.skill}>
-                <div className={styles.skillImageContainer}>
-                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
-                </div>
-                <p>{skill.title}</p>
-              </div>
-            );
-          })}
-        </div>
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
@@ -38,11 +26,34 @@ export const Experience = () => {
                       return <li key={id}>{experience}</li>;
                     })}
                   </ul>
+                  {historyItem.recLetter && (
+                    <a
+                      className={styles.link}
+                      href={getImageUrl("recLetter.pdf")}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View recommendation letter
+                    </a>
+                  )}
                 </div>
               </li>
             );
           })}
         </ul>
+        <h3 className={styles.skillsTitle}>Skills</h3>
+        <div className={styles.skills}>
+          {skills.map((skill, id) => {
+            return (
+              <div key={id} className={styles.skill}>
+                <div className={styles.skillImageContainer}>
+                  <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+                </div>
+                <p>{skill.title}</p>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
