@@ -19,25 +19,25 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Junior Developer at OneCloud</h3>
               <p>
-                I work as a Junior Developer at OneCloud, a telecommunication company that specializes in VoIP and UCaaS solutions, and offers products like AI voice receptionists, E-Fax, and mass messaging systems.
+                I'm a backend-focused junior developer at OneCloud, a telecom company building VoIP and UCaaS products like AI voice receptionists, E-Fax, and mass-messaging systems. I started here in technical support and moved into development, so I understand the products from the customer up.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Backend development icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Development</h3>
+              <h3>Backend Focus</h3>
               <p>
-                I design and create MCP integrations to enable our AI voice agent to interact with our customers data, allowing the agent to perform actions like scheduling appointments, automatically create meaningful leads in the customers CRM software, and handle in depth customer inquiries.
+                I gravitate toward backend work — designing APIs and integrations and automating the manual processes that slow teams down. I like turning a vague requirement into a reliable system that connects services and data.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Frontend development icon" />
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Development workflow icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Development</h3>
+              <h3>How I Work</h3>
               <p>
-                I perform QA testing on our React frontend to ensure a smooth user experience.
+                I'm comfortable across the stack, from Python services to React frontends, and I care about shipping clean, well-tested code on deadline. I lean on modern tooling like Claude Code to move faster without cutting corners.
               </p>
             </div>
           </li>

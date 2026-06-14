@@ -5,9 +5,9 @@
     "startDate": "Feb 2025",
     "endDate": "Present",
     "experiences": [
-      "Build and QA-test features across products approaching launch",
-      "Find, document, and fix issues on tight deadlines",
-      "Use Claude Code to speed delivery and uphold code quality"
+      "Design and build MCP integrations that let our AI voice agent act on customer data, enabling it to book appointments, create CRM leads, handle detailed inquiries, and more ",
+      "Build and QA-test features across our React and Python products as they approach launch",
+      "Find, document, and fix issues on tight deadlines, using Claude Code to deliver quickly without sacrificing quality"
     ],
     "imageSrc": "history/onecloud.svg"
   },
@@ -29,9 +29,9 @@
     "startDate": "Feb 2023",
     "endDate": "Aug 2023",
     "experiences": [
-      "Cut downtime of business-critical processes with an alerting system",
+      "Cut downtime of business-critical processes by creating a monitoring system that alerted support teams to issues before customers noticed",
       "Designed and built an API to track background process status",
-      "Created a dashboard so support teams could diagnose issues fast"
+      "Created a React dashboard to allow teams to easily view process health and quickly identify issues"
     ],
     "imageSrc": "history/aba.png",
     "recLetter": true
